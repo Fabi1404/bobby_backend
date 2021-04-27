@@ -1,0 +1,39 @@
+{
+  "development": {
+    "username": "postgres",
+    "password": "postgres",
+    "database": "bobby_db_dev",
+    "host": "127.0.0.1",
+    "port": 5432,
+    "dialect": "postgres",
+    "logging": true,
+    "force": true,
+    "timezone": "-04:00"
+  },
+  "test": {
+    "username": "postgres",
+    "password": "postgres",
+    "database": "bobby_db_test",
+    "host": "127.0.0.1",
+    "port": 5432,
+    "dialect": "postgres",
+    "logging": true,
+    "force": true,
+    "timezone": "-04:00"
+  },
+  "production": {
+    "username": "kagspqhxwfjirh",
+    "password": "045806746461ef0afcd8f79664049f2b938f12f2407bd5547f848d5ffaa47905",
+    "database": "dcofvnnj78m864",
+    "host": "ec2-107-20-153-39.compute-1.amazonaws.com",
+    "port": 5432,
+    "dialect": "postgres",
+    "dialectOptions": {
+      "ssl": {
+        "require": true,
+        "rejectUnauthorized": false
+      }
+    },
+    "logging": true
+  }
+}
