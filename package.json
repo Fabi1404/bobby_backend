@@ -1,8 +1,8 @@
 {
-  "name": "typescript-express-sequelize",
+  "name": "bobby-backend",
   "version": "2.1.0",
-  "description": "Sample project with Express + Sequelize + Typescript",
-  "homepage": "https://github.com/maximegris/typescript-express-sequelize",
+  "description": "Servicio para el backend de bobbys perdidos",
+  "homepage": "https://github.com/Fabi1404/bobby_backend",
   "author": {
     "name": "Maxime GRIS",
     "email": "maxime.gris@gmail.com"
@@ -32,6 +32,7 @@
     ]
   },
   "dependencies": {
+    "apidoc": "^0.27.1",
     "body-parser": "1.19.0",
     "chai": "4.2.0",
     "cors": "2.8.5",
@@ -83,5 +84,13 @@
     "hooks": {
       "pre-commit": "lint-staged"
     }
+  },
+  "apidoc": {
+    "name": "bobby-backend",
+    "version": "0.0.1",
+    "description": "Servicio backend para las mascotas perdidas",
+    "title": "bobby-backend",
+    "url" : "https://murmuring-peak-15403.herokuapp.com/api",
+    "sampleUrl": "https://murmuring-peak-15403.herokuapp.com/api"
   }
 }
